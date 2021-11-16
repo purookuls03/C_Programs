@@ -1,0 +1,37 @@
+#include<stdio.h>
+
+void main()
+{
+	input :
+		abc			array[i]={1,2,3,4,5},sum=0
+		a=5
+		b=7
+		c=9
+		d=3
+	
+	process:
+			(d*(pow(10, 0)+ c*(pow(10, 1)+ b*(pow(10, 2)+ a*(pow(10, 3)
+			3	+	90	+	700		+	5000
+			
+			5793
+			
+			for(i=size-1;i>=0;i--)
+			{
+				//i=arr[i]*(pow(10, i) 
+				sum=sum+arr[i]*(pow(10, i)
+			}
+	
+	
+			
+	
+	
+	output:
+		loop1 : 3
+		loop2 : 90
+		loop3 : 700
+		loop4 : 5000
+		
+		res=5793
+		
+		
+}

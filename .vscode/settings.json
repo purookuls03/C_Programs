@@ -1,0 +1,7 @@
+{
+    "C_Cpp.errorSquiggles": "Disabled",
+    "files.associations": {
+        "math.h": "c",
+        "02_FUN_PRIME.C": "cpp"
+    }
+}
