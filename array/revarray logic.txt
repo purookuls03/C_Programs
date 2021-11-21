@@ -1,0 +1,22 @@
+1.Input
+	declaration (hard code array)={1,2,3,4,5}, temp, i, j=4
+
+2.Process
+	for(i=0;i<5;i++)
+	
+	temp=ai
+	ai=a(j-i)
+	a(j-i)=temp
+	
+	a1=a4
+	temp=a1
+	a1=a4
+	a4=temp
+
+3.Output
+
+	a0=5
+	a1=4
+	a2=3
+	a3=2
+	a4=1

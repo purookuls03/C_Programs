@@ -1,0 +1,15 @@
+1.input
+	declaration hard cord array, element value, number(which have to 						  find in array)
+
+
+2.Process
+	define array elements by user
+	find the searching number in array
+	if -> present
+	else -> absent
+	
+
+
+3.Output
+	number is present
+	number is absent

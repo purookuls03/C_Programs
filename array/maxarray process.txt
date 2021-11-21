@@ -1,0 +1,11 @@
+1.Input
+	declaration 
+	array, size, variable
+	5,2,3,15,4
+2.Processing
+	for{}
+	i=0
+	a0=5
+
+3.Output
+	printf maximum

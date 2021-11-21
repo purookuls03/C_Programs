@@ -1,0 +1,17 @@
+1.Input
+	declaration hard cord (size of array), number of elements=	{1,2,3,4,5}, inserted 	value by user, position by user 
+
+2.Process
+	a[i];
+	user defined variable
+	uer defined position
+	swap th variable from user defined variable on its same position
+
+3.Output
+	/*(1,2,3,4,5
+	
+	user variable = 9
+	position=3)
+	*/
+	
+	1,2,9,4,5
