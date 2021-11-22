@@ -1,0 +1,94 @@
+#   Dynamic memory allocation is a process of allocating memory at run time.
+        
+#   There are four library routines, calloc(), free(), realloc(), and malloc()
+
+    a)Malloc ->     1.  It is a function which is used to allocate a block of memory dynamically. 
+                        
+                    2.  It reserves memory space of specified size and returns the null pointer pointing to 
+                            the memory location. 
+                        
+                    3. The full form of malloc is memory allocation.
+
+            Uses of Malloc :
+                        1.  You should use malloc() when you have to allocate memory at runtime.
+
+                        2.  You should use malloc when you have to allocate objects which must exist beyond the 
+                            execution of the current memory block.
+                        
+                        3.  Go for malloc() if you need to allocate memory greater than the size of that stack.
+                        
+                        4.  It returns the pointer to the first byte of allocated space.
+
+                        5.  It enables developers to allocate memory as it is needed in the exact amount.
+
+                        6.  This function allocates a memory block size of bytes from the heap.
+
+                        7.  Its initialize with garbage value
+
+        
+            Syntax of malloc()  :
+
+                            ptr = (cast_type *) malloc (byte_size);
+                                
+                                In above syntax, ptr is a pointer of cast_type. The malloc function returns a 
+                                pointer to the allocated memory of byte_size.
+
+                            Example: ptr = (int *) malloc (50)
+
+                                When this statement is successfully executed, a memory space of 50 bytes 
+                                is reserved. The address of the first byte of reserved space is assigned to the 
+                                pointer "ptr"of type int.
+
+  /\/\/\/\/\/\/\/**********************************$#####################$*******************************\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\ 
+   
+    b)Calloc ->     1.  Calloc() function is used to allocate multiple blocks of memory.
+
+                    2.  If this function fails to allocate enough space as specified, it returns will 
+                            null pointer.
+
+                    3.  The full form of calloc function is contiguous allocation.
+
+        
+        Uses of Calloc :    
+                    1.  When you have to set allocated memory to zero.
+
+                    2.  You can use calloc that returns a pointer to get access to memory heap.
+
+                    3.  Used when you need to initialize the elements to zero to returns a pointer to the memory.
+
+                    4.  To prevent overflow that is possible with malloc()
+
+                    5.  Use calloc() to initialize with zero.
+
+
+        Syntax of calloc :
+                    ptr = (cast_type *) calloc (n, size);
+
+            The above syntax is used to allocate n memory blocks of the same size. After the memory space  
+            is allocated, all the bytes are initialized to zero. The pointer, which is currently at the first 
+            byte of the allocated memory space, is returned.
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+    Difference between malloc & calloc :
+
+                malloc()	                                                 calloc()
+Malloc() function will create a single block of	       *           Calloc() function can assign multiple blocks of 
+memory of size specified by the user.                               memory for a variable.
+
+Malloc function contains garbage value.	               *            The memory block allocated by a calloc 
+                                                                    function is always initialized to zero.
+
+Number of arguments is 2.	                                    Number of argument is 1.
+
+Calloc is slower than malloc.	                        *           Malloc is faster than calloc.
+
+It is not secure as compare to calloc.	                            It is secure to use compared to malloc.
+
+Time efficiency is higher than calloc().	                    Time efficiency is lower than malloc().
+
+Malloc() function returns only starting 	                    Before allocating the address, Calloc() function
+address and does not make it zero.                                  returns the starting address and make it zero.
+
+It does not perform initializes of memory.	        *           It performs memory initialization.
