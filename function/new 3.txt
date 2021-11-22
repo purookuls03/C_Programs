@@ -1,0 +1,5 @@
+multi file c programming
+
+1.main file
+
+2.pair file (.h & .c)

@@ -1,0 +1,32 @@
+#include<stdio.h>
+
+int square(int num1)
+{
+	int i=1;
+	
+	
+	
+	
+
+}
+
+
+
+
+
+
+void main()
+{
+	int num, res=1;
+	
+	printf("Enter the square number\n");
+	scanf("%d",&num);
+	
+	res=num*2;
+	
+	printf("res=%d", res);
+	
+	
+	
+	
+}

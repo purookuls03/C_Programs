@@ -1,0 +1,8 @@
+error = data ko declare nhii kiyaa
+error = hamne ek hee tarah ke do variable define ar diyee
+error = int main is already a defined keyword
+
+10 = local defined hai 10
+error = a local declare hai
+error = int main(void) aisha koi function nhi hota
+error = int main(void) aisha koi function nhi hota
