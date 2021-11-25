@@ -1,0 +1,19 @@
+Preprocessor are programs that process our code before compilation.
+
+basically there are 4 types of preprocessor
+1.Macros
+2.file Inclusion
+3.conditional compilation
+4.other directives
+
+# symbol shows that whenever the statement start to preprocessor like #include etc.
+
+The source code written by programmers is stored in the file program.c. This file is then processed by preprocessors and an expanded source code file is generated named program. This expanded file is compiled by the compiler and an object code file is generated named program .obj
+
+All of these preprocessor directives begin with a ‘#’ (hash) symbol
+
+whatever statement starts with #, is going to the preprocessor program, and preprocessor program will execute this statement.
+
+Examples of some preprocessor directives are: #include, #define, #ifndef etc
+
+include will include extra code to your program. We can place these preprocessor directives anywhere in our program. 
